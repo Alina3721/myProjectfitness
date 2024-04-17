@@ -1,0 +1,151 @@
+body{
+    position: relative;
+    display: block;
+}
+
+
+#logowanie{
+    text-align: right; 
+    margin-bottom: 30px;
+    bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#zaloguj{
+margin-right:5px ;
+display: inline;
+padding: 17px;
+color: white;
+background-color: mediumturquoise;
+position: relative;
+border: 3px solid mediumturquoise;
+}
+
+#zaloguj:hover{
+    background-color: mediumturquoise;
+    -webkit-text-fill-color: white;
+    border: 3px inset rgb(84, 238, 233);
+    transition-duration: 2s;
+}
+
+#rejestracja{
+    margin-left: 5px;
+    display: inline;
+    padding: 17px;
+    -webkit-text-fill-color: mediumturquoise;
+    position: relative;
+    border: 3px solid mediumturquoise;
+}
+
+ #rejestracja:hover {
+     border: 3px solid mediumturquoise;
+     background-color: white;
+     -webkit-text-fill-color: mediumturquoise;
+      box-shadow: 5px 2px 2px mediumturquoise;
+     transition-duration: 1s;
+}
+    
+
+#naglowek{
+    text-align: center;
+    font-family: sans-serif ;
+    color:rgb(255, 255, 255);
+    text-shadow: 7px 2px 2px mediumturquoise;
+}
+
+#img{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#pasek{
+    background-color: mediumturquoise;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 209px;
+    position: relative;
+    display: fixed;
+}
+
+#problem{
+ display: fixed;
+}
+
+
+#trojkat{
+    width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 120px solid white;
+    left: 50px;
+	bottom: 710px;
+    position: absolute;
+    display: fixed;
+
+}
+
+#trojkat2{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 100px solid white;
+	margin: 35px auto 0;
+    bottom: 705px;
+    margin-left: 1260px;
+    position: absolute;
+    display: fixed;
+} 
+
+
+#block{
+    justify-content: center;
+    position: relative ;
+    width: 600px;
+    height: 500px;
+    border-radius: 10%;
+    background-color: white;
+    border: 5px outset gray;
+    left:400px;
+    top: 100px;
+    padding: 100px;
+
+}
+
+ul{
+    text-align:center;
+    
+  }
+
+  li{
+    display:inline;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px white;
+    font-family: monospace;
+    
+  }
+
+  a{
+    color:white;
+    text-decoration:none;
+    
+  }
+
+  li:hover{
+    text-shadow: 3px 3px 2px white;
+    background-color: rgb(6, 255, 201);
+    cursor: pointer;
+  }
+
+  
