@@ -3,23 +3,27 @@ body{
     display: block;
 }
 
-
+#naglowek{
+    width: 80%;
+}
+.row{
+    display: flex;
+}
 #logowanie{
     text-align: right; 
-    margin-bottom: 30px;
-    bottom: 10px;
-    margin-right: 10px;
-    position: relative;
+    /* margin-bottom: 30px; */
+    display: flex;
+    justify-content: center;
 }
 
 #zaloguj{
-margin-right:5px ;
-display: inline;
-padding: 17px;
-color: white;
-background-color: mediumturquoise;
-position: relative;
-border: 3px solid mediumturquoise;
+    margin-right:5px ;
+    width: 90px;
+    padding: 17px;
+    color: white;
+    background-color: mediumturquoise;
+    position: relative;
+    border: 3px solid mediumturquoise;
 }
 
 #zaloguj:hover{
@@ -31,7 +35,7 @@ border: 3px solid mediumturquoise;
 
 #rejestracja{
     margin-left: 5px;
-    display: inline;
+    width: 90px;
     padding: 17px;
     -webkit-text-fill-color: mediumturquoise;
     position: relative;
@@ -50,7 +54,7 @@ border: 3px solid mediumturquoise;
 #naglowek{
     text-align: center;
     font-family: sans-serif ;
-    color:rgb(255, 255, 255);
+    color:rgb(147, 184, 187);
     text-shadow: 7px 2px 2px mediumturquoise;
 }
 
@@ -64,44 +68,37 @@ border: 3px solid mediumturquoise;
 
 #pasek{
     background-color: mediumturquoise;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 209px;
+    width: 80%;
     position: relative;
-    display: fixed;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
 }
 
 #problem{
- display: fixed;
+    display: fixed;
 }
 
 
 #trojkat{
     width: 0;
-	height: 0;
+	height: 100%;
 	border-left: 70px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 120px solid white;
-    left: 50px;
-	bottom: 710px;
-    position: absolute;
-    display: fixed;
-
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid white;
+    display: block;
+    transform: translateX(-63%);
 }
 
 #trojkat2{
-    width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
+	border-left: 40px solid transparent;
 	border-right: 70px solid transparent;
-	border-top: 100px solid white;
-	margin: 35px auto 0;
-    bottom: 705px;
-    margin-left: 1260px;
+	border-top: 60px solid white;
+    /* transform: translateX(235%);
+     */
     position: absolute;
-    display: fixed;
+    right: -70px;
 } 
 
 
@@ -121,22 +118,22 @@ border: 3px solid mediumturquoise;
 
 ul{
     text-align:center;
+    list-style: none;
+    display: flex;
     
-  }
+}
 
-  li{
-    display:inline;
-    padding:10px;
+li{
+    padding-left:15px;
+    padding-right:15px;
     font-size:20px;
     font-weight:bold;
     text-transform:uppercase;
-    letter-spacing: 2px;
     text-shadow: 1px 1px 2px white;
-    font-family: monospace;
-    
-  }
+    font-family: monospace;   
+}
 
-  a{
+a{
     color:white;
     text-decoration:none;
     
@@ -146,6 +143,19 @@ ul{
     text-shadow: 3px 3px 2px white;
     background-color: rgb(6, 255, 201);
     cursor: pointer;
-  }
-
+}
+#img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(./img/Image20240420151433.png);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(226, 43, 43);
+}
   
