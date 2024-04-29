@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Righteous&family=Russo+One&display=swap');
 
 
 body{
@@ -13,14 +15,13 @@ body{
 
 #logowanie{
     text-align: right; 
-    /* margin-bottom: 30px; */
     display: flex;
     justify-content: center;
 }
 
 #zaloguj{
     margin-right:5px ;
-    width: 90px;
+    width: 60px;
     padding: 17px;
     color: white;
     background-color: mediumturquoise;
@@ -37,7 +38,7 @@ body{
 
 #rejestracja{
     margin-left: 5px;
-    width: 90px;
+    width: 70px;
     padding: 17px;
     -webkit-text-fill-color: mediumturquoise;
     position: relative;
@@ -56,9 +57,10 @@ body{
 #naglowek{
     text-align: center;
     width: 80%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Russo One", sans-serif;
     color:mediumturquoise;
-	
+    font-size: 40px;
+    font-weight: 30px;
 }
 
 #img{
@@ -105,8 +107,6 @@ body{
 } 
 
 
-
-
 ul{
     text-align:center;
     list-style: none;
@@ -136,57 +136,54 @@ a{
     cursor: pointer;
 }
 #img{
-    width: 90%;
-    height: 70%;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    background-color: center;
-    justify-content: center;
-
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -10px;
+  margin-right: -12px;
+  height: 900px;
+  width: 1585px;
+  background-image: url("./img/Kopia\ –\ Fitness.png" );
+  background-size:cover;
 }
 
-#img2{
-    width: 80%;
-    height: 60%;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 20px;
-    background-color: center;
-    justify-content: center;
+ #gura{
+  margin-top: -30px;
+  margin-right: -10px;
+  margin-left: -10px;
+  height: 900px;
+  width: 1600px;
+  background-image: url("./img/huge\ \(3\).png" );
+  background-size:cover;
+  border-bottom: 20px solid rgb(255, 255, 255);
 }
-  #block{
-    width: 900px;
-    height: 300px;
-    background-color: black;
-    opacity: 0.5;
-    position: relative;
-    border: 5px double rgb(6, 255, 201);
-    transform: translateX(59%) translateY(100%);
-  }
-
-  #tekst{
+  
+  #tekst-id{
     color: azure;
     position: inherit;
-    width: 800px;
+    margin-left: -60px;
+    margin-right: -100px;
+    justify-content: center;
+    width: 790px;
     height: 300px;
-    transform: translateX(70%) translateY(1%);
+    transform: translateX(110%) translateY(175%);
   }
 
   #tekst2{
-    font-size: 25px;
-    font-family: "Anek Devanagari", sans-serif;
-    font-weight: 515;
+    font-size: 50px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 560;
+    text-align: right;
   }
 
   #grupy{
    width:350px;
    height: 400px;
    border-radius: 10%;
-   background-color: rgb(189, 245, 244);
+   background-color: ghostwhite;;
    transform: translateX(70%) translateY(20%);
    display: block;
    text-align: center;
+   
   }
 
   #sprzent{
@@ -197,6 +194,7 @@ a{
     transform: translateX(280%) translateY(-80%);
     display: block;
     text-align: center;
+    
   }
 
   #wsparcie{
@@ -207,16 +205,18 @@ a{
     transform: translateX(0%) translateY(-60%);
     display: block;
     text-align: center;
+    
   }
 
   #trener{
     width:350px;
     height: 400px;
     border-radius: 10%;
-    background-color: rgb(189, 245, 244);
-    transform: translateX(180%) translateY(-160%);
+    background-color: ghostwhite;;
+    transform: translateX(165%) translateY(-160%);
     display: block;
     text-align: center;
+    
   }
 
   #relaks{
@@ -224,9 +224,10 @@ a{
     height: 400px;
     border-radius: 10%;
     background-color:ghostwhite;
-    transform: translateX(350%) translateY(-260%);
+    transform: translateX(330%) translateY(-260%);
     display: block;
     text-align: center;
+    
   }
 
   #tekstg{
@@ -252,4 +253,28 @@ a{
   #tekstr{
     font-size: 22px;
     font-family: "Anek Devanagari", sans-serif;
+  }
+
+  #tlo-onas{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+    width:1600px;
+    height:1080px;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+  #block2{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    background: linear-gradient(to bottom, rgb(1, 183, 186), rgba(2, 204, 208, 0.656), rgba(3, 249, 253, 0.324));
+  }
+
+  #hjk{
+    color:white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
