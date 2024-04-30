@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Righteous&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Russo+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Russo+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Righteous&family=Russo+One&family=Viga&display=swap');
+
+
 
 
 body{
@@ -148,8 +154,8 @@ a{
 
  #gura{
   margin-top: -30px;
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: -60px;
+  margin-left: -20px;
   height: 900px;
   width: 1600px;
   background-image: url("./img/huge\ \(3\).png" );
@@ -178,6 +184,7 @@ a{
   #grupy{
    width:350px;
    height: 400px;
+   border: 4px solid black;
    border-radius: 10%;
    background-color: ghostwhite;;
    transform: translateX(70%) translateY(20%);
@@ -189,6 +196,7 @@ a{
   #sprzent{
     width:350px;
     height: 400px;
+    border: 4px solid black;
     border-radius: 10%;
     background-color: ghostwhite;
     transform: translateX(280%) translateY(-80%);
@@ -200,6 +208,7 @@ a{
   #wsparcie{
     width:350px;
     height: 400px;
+    border: 4px solid black;
     border-radius: 10%;
     background-color: ghostwhite;
     transform: translateX(0%) translateY(-60%);
@@ -208,9 +217,10 @@ a{
     
   }
 
-  #trener{
+  #trenerr{
     width:350px;
     height: 400px;
+    border: 4px solid black;
     border-radius: 10%;
     background-color: ghostwhite;;
     transform: translateX(165%) translateY(-160%);
@@ -222,9 +232,10 @@ a{
   #relaks{
     width:350px;
     height: 400px;
+    border: 4px solid black;
     border-radius: 10%;
     background-color:ghostwhite;
-    transform: translateX(330%) translateY(-260%);
+    transform: translateX(343%) translateY(-260%);
     display: block;
     text-align: center;
     
@@ -232,27 +243,34 @@ a{
 
   #tekstg{
     font-size: 22px;
-    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
   }
 
   #teksts{
     font-size: 22px;
-    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
   }
 
   #tekstw{
     font-size: 22px;
-    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
   }
 
   #tekstt{
     font-size: 22px;
-    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
   }
 
   #tekstr{
     font-size: 22px;
-    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
   }
 
   #tlo-onas{
@@ -260,21 +278,446 @@ a{
     margin-bottom: auto;
     margin-right: -10px;
     margin-left: -10px;
+    background-image:url("./img/huge.png");
     width:1600px;
     height:1080px;
     background-size:cover;
     background-attachment:fixed;
   }
 
-  #block2{
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-    background: linear-gradient(to bottom, rgb(1, 183, 186), rgba(2, 204, 208, 0.656), rgba(3, 249, 253, 0.324));
+ 
+
+#gura2{
+  margin-right: -60px;
+  margin-left: -20px;
+  margin-top: -30px;
+  margin-bottom: 5px;
+  height: 900px;
+  width: 1600px;
+  background-image: url("./img/2.png" );
+  background-size:cover;
+}
+
+#text-block{
+  color: azure;
+  position: inherit;
+  justify-content: center;
+  width: 690px;
+  height: 300px;
+  transform: translateX(5%) translateY(175%);
+}
+
+  #sam-text{
+  font-size: 50px;
+  font-family: "Righteous", sans-serif;
+  font-weight: 450;
+  text-align: center;
   }
 
-  #hjk{
+  p .pogrub{
+    color: rgb(3, 189, 202);
+    font-family: "Russo One", sans-serif;
+  }
+
+  #naglowek-treningi{
+  width: 1560px;
+  justify-content: center;
+  }
+
+  #text-trening{
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    color:mediumturquoise;
+    font-weight: 30px;
+    font-size: 45px;
+  }
+
+  .hr-line {
+    width: 30%;
+    border: none;
+    height: 3px;
+    background-color: rgb(117, 117, 117);
+    position: relative;
+  }
+
+
+  .hr-line2 {
+    width: 30%;
+    border: none;
+    height: 3px;
+    background-color:rgb(117, 117, 117);
+    position: relative;
+  }
+  
+  .animate {
+    animation: moveLineLeft 2s forwards;
+  }
+
+.animate2{
+  animation:moveLineRight 2s forwards;
+}
+
+  @keyframes moveLineRight {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 50%;
+    }
+  }
+
+  @keyframes moveLineLeft {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 50%;
+    }
+  }
+
+
+  #sila {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-102%);
+  }
+  
+  #sila::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, cyan, white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #sila:hover::before {
+    left: 0;
+  }
+
+  #sila-foto{
+    margin-left: -5px;
+  }
+
+  #id-text-sila{
+    width: 1000px;
+    height: 200px;
+    transform: translateX(21%) translateY(-210%);
+  }
+
+  #nagl-sila{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
     color:white;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #text-sila1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-sila2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+  
+  #cardio-foto{
+    transform: translateX(-2%) translateY(-210%);
+  }
+
+  #cardio {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-312%);
+  }
+  
+  #cardio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(0, 174, 255), white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #cardio:hover::before {
+    left: 0;
+  }
+
+  #id-text-cardio{
+    width: 900px;
+    height: 200px;
+    transform: translateX(23%) translateY(-415%);
+  }
+
+  #nagl-cardio{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    color:white;
+  }
+
+  #text-cardio1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-cardio2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+
+  #hit {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-522%);
+  }
+  
+  #hit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(0, 119, 255), white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #hit:hover::before {
+    left: 0;
+  }
+
+  #hit-foto{
+    transform: translateX(-2%) translateY(-420%);
+  }
+
+  #id-text-hit{
+    width: 900px;
+    height: 200px;
+    transform: translateX(23%) translateY(-625%);
+  }
+
+  #nagl-hit{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    color:white;
+  }
+
+  #text-hit1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-hit2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #core {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-732%);
+  }
+  
+  #core::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(0, 72, 255), white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #core:hover::before {
+    left: 0;
+  }
+
+  #core-foto{
+    transform: translateX(-2%) translateY(-630%);
+  }
+
+  #id-text-core{
+    width: 900px;
+    height: 200px;
+    transform: translateX(23%) translateY(-835%);
+  }
+
+  #nagl-core{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    color:white;
+  }
+
+  #text-core1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-core2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+
+  #trener {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-942%);
+  }
+  
+  #trener::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(0, 17, 255), white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #trener:hover::before {
+    left: 0;
+  }
+
+  #trener-foto{
+    transform: translateX(-2%) translateY(-840%);
+  }
+
+  #id-text-trener{
+    width: 900px;
+    height: 200px;
+    transform: translateX(23%) translateY(-1045%);
+  }
+
+  #nagl-trener{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    color:white;
+  }
+
+  #text-trener1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-trener2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+
+
+  #yoga {
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    overflow: hidden;
+    transform: translateX(13%) translateY(-1152%);
+  }
+  
+  #yoga::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(47, 0, 255), white);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #yoga:hover::before {
+    left: 0;
+  }
+
+  #yoga-foto{
+    transform: translateX(-2%) translateY(-1050%);
+  }
+
+  #id-text-yoga{
+    width: 900px;
+    height: 200px;
+    transform: translateX(23%) translateY(-1255%);
+  }
+
+  #nagl-yoga{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    color:white;
+  }
+
+  #text-yoga1{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  #text-yoga2{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color:white;
+    font-weight: 50px;
+    font-size: 21px;
+    text-align: left;
   }
