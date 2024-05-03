@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Russo+One&family=Viga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Russo+One&family=Viga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Righteous&family=Russo+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Lilita+One&family=Righteous&family=Russo+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@515&family=Carter+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Lilita+One&family=Righteous&family=Rowdies:wght@300;400;700&family=Russo+One&family=Viga&display=swap');
 
 
 
@@ -93,13 +95,13 @@ body{
 
 
 #trojkat{
-    width: 0;
+  width: 0;
 	height: 100%;
 	border-left: 70px solid transparent;
 	border-right: 40px solid transparent;
 	border-bottom: 60px solid white;
-    display: block;
-    transform: translateX(-63%);
+  display: block;
+  transform: translateX(-63%);
 }
 
 #trojkat2{
@@ -153,7 +155,7 @@ a{
 }
 
  #gura{
-  margin-top: -30px;
+  margin-top: -45px;
   margin-right: -60px;
   margin-left: -20px;
   height: 900px;
@@ -290,7 +292,7 @@ a{
 #gura2{
   margin-right: -60px;
   margin-left: -20px;
-  margin-top: -30px;
+  margin-top: -45px;
   margin-bottom: 5px;
   height: 900px;
   width: 1600px;
@@ -330,6 +332,7 @@ a{
     color:mediumturquoise;
     font-weight: 30px;
     font-size: 45px;
+    cursor: pointer;
   }
 
   .hr-line {
@@ -721,3 +724,439 @@ a{
     font-size: 21px;
     text-align: left;
   }
+
+  #tlo-kanaty{
+    background-image:url("./img/back.png");
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+    width:1595px;
+    height:800px;
+    background-size:cover;
+    justify-content: center;
+  }
+
+  #basic-block{
+    width: 690px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    transform: translateX(10%) translateY(-70%);
+    border: 5px solid aqua;
+    box-shadow: 10px 5px 7px black;
+  }
+
+  #text-basic{
+    transform: translateX(12%) translateY(-179%);
+    display: block;
+    color: white;
+    height: 400px;
+    width: 680px;
+  }
+
+  #nagl-basic{
+  font-size: 30px;
+  font-family: "Rowdies", sans-serif;
+  }
+
+  .text-basic{
+  font-size: 25px;
+  font-family: "Rowdies", sans-serif;
+  }
+
+  #click-kup1{
+    width: 110px;
+    height: 30px;
+    border:  3px solid aqua;
+    transform: translateX(430%) translateY(-1450%);
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  #click-kup1:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+  #block-premium{
+    width: 690px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    border: 5px solid aqua;
+    transform: translateX(120%) translateY(-288%);
+    box-shadow: 10px 5px 7px black;
+  }
+
+  #text-premium{
+    transform: translateX(125%) translateY(-403%);
+    display: block;
+    color: white;
+    height: 400px;
+    width: 680px;
+  }
+
+  #nagl-premium{
+    font-size: 30px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  .text-premium{
+    font-size: 25px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  #click-kup2{
+    width: 110px;
+    height: 30px;
+    border:  3px solid aqua;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
+    transform: translateX(1000%) translateY(-3000%);
+  }
+
+  #click-kup2:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+  #block-indewidualne{
+    width: 690px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    border: 5px solid aqua;
+    transform: translateX(10%) translateY(-400%);
+    box-shadow: 10px 5px 7px black;
+  }
+
+  #text-indewidualne{
+    display: block;
+    color: white;
+    height: 400px;
+    width: 680px;
+    transform: translateX(12%) translateY(-518%);
+  }
+
+  #nagl-indewidualne{
+    font-size: 30px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  .text-indewidualne{
+    font-size: 25px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  #click-kup3{
+    width: 110px;
+    height: 30px;
+    border:  3px solid aqua;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
+    transform: translateX(430%) translateY(-3850%);
+  }
+
+  #click-kup3:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+  #block-siłowy{
+    width: 690px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    border: 5px solid aqua;
+    transform: translateX(120%) translateY(-618%);
+    box-shadow: 10px 5px 7px black;
+  }
+
+  #text-siłowy{
+    display: block;
+    color: white;
+    height: 400px;
+    width: 680px;
+    transform: translateX(125%) translateY(-737%);
+  }
+
+  #nagl-siłowy{
+    font-size: 30px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  .text-siłowy{
+    font-size: 25px;
+    font-family: "Rowdies", sans-serif;
+  }
+
+  #click-kup4{
+    width: 110px;
+    height: 30px;
+    border:  3px solid aqua;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
+    transform: translateX(1000%) translateY(-5450%);
+  }
+
+  #click-kup4:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+
+#block-kardio{
+  width: 690px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: 5px solid aqua;
+  transform: translateX(10%) translateY(-730%);
+  box-shadow: 10px 5px 7px black;
+}
+
+#text-kardio{
+  display: block;
+  color: white;
+  height: 400px;
+  width: 680px;
+  transform: translateX(12%) translateY(-855%);
+}
+
+#nagl-kardio{
+  font-size: 30px;
+  font-family: "Rowdies", sans-serif;
+}
+
+.text-kardio{
+  font-size: 25px;
+  font-family: "Rowdies", sans-serif;
+}
+
+#click-kup5{
+  width: 110px;
+  height: 30px;
+  border:  3px solid aqua;
+  color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rowdies", sans-serif;
+  transform: translateX(430%) translateY(-6270%);
+}
+
+#click-kup5:hover{
+  background-color: aqua;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#linia-karnety1{
+  background-color: aqua;
+  height: 10px;
+  margin-top: -5px;
+}
+
+#linia-karnety2{
+  background-color: aqua;
+  height: 10px;
+  margin-top: -5700px;
+}
+
+#block-HIIT{
+  width: 690px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: 5px solid aqua;
+  transform: translateX(120%) translateY(-948%);
+  box-shadow: 10px 5px 7px black;
+}
+
+#text-HIIT{
+  display: block;
+  color: white;
+  height: 400px;
+  width: 680px;
+  transform: translateX(125%) translateY(-1080%);
+}
+
+#nagl-HIIT{
+  font-size: 30px;
+  font-family: "Rowdies", sans-serif;
+}
+
+.text-HIIT{
+  font-size: 25px;
+  font-family: "Rowdies", sans-serif;
+}
+
+#click-kup6{
+  width: 110px;
+  height: 30px;
+  border:  3px solid aqua;
+  color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rowdies", sans-serif;
+  transform: translateX(1000%) translateY(-7870%);
+}
+
+#click-kup6:hover{
+  background-color: aqua;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#block-coree{
+  width: 690px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: 5px solid aqua;
+  transform: translateX(10%) translateY(-1060%);
+  box-shadow: 10px 5px 7px black;
+}
+
+#text-coree{
+  display: block;
+  color: white;
+  height: 400px;
+  width: 680px;
+  transform: translateX(13%) translateY(-1193%);
+}
+
+#nagl-coree{
+  font-size: 30px;
+  font-family: "Rowdies", sans-serif;
+}
+
+.text-coree{
+  font-size: 25px;
+  font-family: "Rowdies", sans-serif;
+}
+
+#click-kup7{
+  width: 110px;
+  height: 30px;
+  border:  3px solid aqua;
+  color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rowdies", sans-serif;
+  transform: translateX(440%) translateY(-8660%);
+}
+
+#click-kup7:hover{
+  background-color: aqua;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#block-joga{
+  width: 690px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  border: 5px solid aqua;
+  transform: translateX(120%) translateY(-1278%);
+  box-shadow: 10px 5px 7px black;
+}
+
+#text-joga{
+  display: block;
+  color: white;
+  height: 400px;
+  width: 680px;
+  transform: translateX(125%) translateY(-1417%);
+}
+
+#nagl-joga{
+  font-size: 30px;
+  font-family: "Rowdies", sans-serif;
+}
+
+.text-joga{
+  font-size: 25px;
+  font-family: "Rowdies", sans-serif;
+}
+
+#click-kup8{
+  width: 110px;
+  height: 30px;
+  border:  3px solid aqua;
+  color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rowdies", sans-serif;
+  transform: translateX(1000%) translateY(-10255%);
+}
+
+#click-kup8:hover{
+  background-color: aqua;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#all-tlo{
+  background-color:lightsteelblue;
+  background-size:cover;
+  width: 1900x;
+  height: 2270px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-image: url("./img/background.grey.png");
+}
+
