@@ -23,8 +23,10 @@ function animateLines() {
 
 
 
-  const canvas = document.querySelector('canvas');
+const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
+const startButton = document.getElementById('startButton');
+const stopButton = document.getElementById('stopButton');
 canvas.width = 1000;
 canvas.height = 500;
 const cw = canvas.width;
@@ -50,7 +52,8 @@ let ballSpeedY = 2;
 
 let player1Score = 0;
 let player2Score = 0;
-let gamePaused = false;
+
+let gameRunning = false
 
 function player1() {
   ctx.fillStyle = 'aqua';
@@ -91,6 +94,9 @@ function ball() {
     speedUp();
   }
 }
+
+
+
 
 function table() {
   ctx.fillStyle = 'dimgrey';
@@ -228,18 +234,94 @@ if (middlePaddel - middleBalls < -100) {
   }
 }
 
+function drawScores() {
+  ctx.font = "30px Arial";
+  ctx.fillStyle = "#ffffff";
+  ctx.fillText("Player: " + player1Score, 50, 50);
+  ctx.fillText("AI: " + player2Score, cw - 200, 50); 
+}
 
+function drawScores2() {
+  ctx.font = "30px Arial";
+  ctx.fillStyle = "#ffffff";
+   if (player2Score==5) {
+    alert ("Przegrałeś ze sztuczną inteligencją!");
+     player1Score=0;
+     player2Score=0;
+
+  } else if (player1Score==5) {
+    alert ("Gratulacje użytkowniku, wygrałeś!");
+     player1Score=0; 
+     player2Score=0;
+  }
+}
+
+function startGame() {
+  gameRunning = true;
+  startButton.disabled = true; // Disable the button after starting the game
+  stopButton.disabled = false; 
+  drawBall(); // Draw the ball when the game starts
+  draw(); // Start the game loop
+}
+
+function stopGame() {
+  startButton.disabled = false; // Enable the start button
+  stopButton.disabled = true;
+  gameRunning = false;
+  clearCanvas(); // Clear the canvas when the game stops
+}
+
+function drawBall() {
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(ballX, ballY, ballSize, ballSize);
+}
+
+function moveBall() {
+  ballX += ballSpeedX;
+  ballY += ballSpeedY;
+
+  if (ballY <= 0 || ballY + ballSize >= canvas.height) {
+      ballSpeedY = -ballSpeedY;
+  }
+
+  if (ballX <= 0 || ballX + ballSize >= canvas.width) {
+      ballSpeedX = -ballSpeedX;
+  }
+}
 
 function draw() {
-  if (!gamePaused) {
+  if (gameRunning) {
     table();
     player1();
     player2();
     ball();
+    drawScores2()
     drawScores();
     player2Position();
+    clearCanvas();
+    moveBall();
+    drawBall();
+    requestAnimationFrame(draw);
   }
 }
+
+
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+startButton.addEventListener('click', () => {
+  startGame();
+  startButton.disabled = true; // Disable the button after starting the game
+  stopButton.disabled = false; // Enable the stop button
+});
+
+stopButton.addEventListener('click', () => {
+  stopGame();
+  startButton.disabled = false; // Enable the start button
+  stopButton.disabled = true; // Disable the stop button
+});
+
 
 setInterval(draw, 1000 / 60);
 
