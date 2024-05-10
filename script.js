@@ -332,7 +332,7 @@ function togglePause() {
 canvas.addEventListener("mousemove", player1Position);
 canvas.addEventListener("mousemove", player2Position);
 window.addEventListener('keydown', function (e) {
-  if (e.keyCode === 32) {
+   {
     togglePause();
   }
 });
